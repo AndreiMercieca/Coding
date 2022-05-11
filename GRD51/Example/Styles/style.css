@@ -3,25 +3,98 @@ h1{
     font-family: Campton;
     font-weight: bold;
     text-align: center;
+    display: block;
+    font-size: 4em;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+ 
 }
 h2{
-    color: black;
-    font-family: Campton;
-    font-weight:bold;
+    color:#0f3641;
+    font-family: Neuzeit Grotesk;
+    font-weight: bold;
     text-align: center; 
-    
+    display: block;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
 }
+
+
+h3{
+    color:#e85324;
+    font-family: Neuzeit Grotesk;
+    font-weight: bold;
+    text-align: center; 
+    display: block;
+    font-size: 3em; 
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .navbar{
 background-color: #e85324 !important;
 font-family: Campton;
 font-weight: bold;
 font-size: large;
-text-align: center;
-margin: auto;
-padding: auto;
+text-align: center !important;
+padding: 1%;
+margin-top: auto;
+
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #0f3641
+}
+
+.icon {
+    color: white;
+    margin:  10px;
+    margin-left:  10px;
+   }
+
+   .icon:hover {
+    color: #0f3641;
 }
 
 
-.navbar .navbar-nav .nav-link:hover{
-    color: #0f3641
+
+ul {
+    padding: 0;
+    font-size: 1.154em;
+
+}
+li {
+    display: inline-block;
+}
+
+title {
+  display: none;
+}
+
+
+        
+    
+body{
+    background: #f5f0dc;
+  }
+  
+
+p{
+    color:#0f3641;
+    font-family: Neuzeit Grotesk;
+    font-weight: bold;
+    text-align: center; 
+    display: block;
+}
+
+
+index.html
+.navbar ul li a{
+    font-size: 24px;
+    padding: 20px 20px !important;
 }
