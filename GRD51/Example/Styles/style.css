@@ -37,6 +37,7 @@ h3{
     margin-right: 0;
 }
 
+
 .navbar{
     background-color: #e85324 !important;
     font-family: Campton;
@@ -62,8 +63,6 @@ h3{
     color: #0f3641;
 }
 
-
-
 ul {
     padding: 0;
     font-size: 1.154em;
@@ -77,8 +76,6 @@ title {
   display: none;
 }
 
-
-        
     
 body{
     background: #f5f0dc;
@@ -90,7 +87,8 @@ p{
     font-family: Neuzeit Grotesk;
     font-size: 2em;
     font-weight: bold;
-    text-align: center; 
+    text-align: center;
+   
     
 }
 p2{
@@ -100,6 +98,14 @@ p2{
     font-weight: bold;
     text-align: center; 
     display: block;
+}
+p3{
+    color:#0f3641;
+    font-family: Neuzeit Grotesk;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center; 
+    
 }
 
 
@@ -143,20 +149,37 @@ p2{
 	height: 75px!important;
     width: 350px;
     font-family: Campton;
-    font-weight: bold;
+    font-weight: 600;
     align-items: center;
     display: block;
 }
 .btn-primary span{
-	color: #E5DDFF;
+	color: #fff;
 	font-size: 24px;
     text-align: center;
 }
 .btn-primary :hover{
     color: #0f3641;
+    font-family: Campton;
+    font-weight:900;
 }
 .svg{
     display: block;
-  margin-left: auto;
-  margin-right: auto;
+    margin-left: auto;
+    margin-right: auto ;   
+}
+div.item {
+    vertical-align: top;
+    text-align: center;
+    float:left;
+}
+
+.caption {
+    display: block;
+    color:#0f3641;
+    font-family: Neuzeit Grotesk;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+    
 }
