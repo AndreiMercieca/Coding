@@ -163,23 +163,26 @@ p3{
     font-family: Campton;
     font-weight:900;
 }
-.svg{
-    display: block;
-    margin-left: auto;
-    margin-right: auto ;   
-}
-div.item {
-    vertical-align: top;
-    text-align: center;
-    float:left;
-}
+
+
 
 .caption {
-    display: block;
+    display:inline-block;
     color:#0f3641;
     font-family: Neuzeit Grotesk;
-    font-size: 2em;
+    font-size: 1.25em;
     font-weight: bold;
     text-align: center;
-    
+    padding: 10px;
+    margin: 12px;
 }
+
+.column {
+    display: flex;
+    float: left;
+    width: 25%;
+    padding:auto;
+  }
+  
+
+  
