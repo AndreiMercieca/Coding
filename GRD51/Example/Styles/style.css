@@ -38,6 +38,7 @@ h3{
 }
 
 
+
 .navbar{
     background-color: #e85324 !important;
     font-family:Campton;
@@ -50,7 +51,8 @@ h3{
 }
 .navbar .navbar-nav .nav-link:hover{
     color: #0f3641;
-    text-decoration:underline;
+    text-decoration:overline;
+    
     
     
 }
@@ -77,16 +79,16 @@ ul {
 
 }
 li {
-    display: inline-block;
+    display:inline-block;
 }
 
 title {
-  display: none;
+  display:none;
 }
 
     
 body{
-    background: #f5f0dc;
+    background:#f5f0dc;
   }
   
 
@@ -95,9 +97,7 @@ p{
     font-family:Neuzeit Grotesk;
     font-size: 2em;
     font-weight: bold;
-    text-align: center;
-   
-    
+    text-align: center;    
 }
 p2{
     color:#e85324;
@@ -237,6 +237,7 @@ div {
 
   .itemMarea{
     background-image:url('../Images/Marea\ Brand\ Guidelines\ v1-01.jpg');
+    
   }
   
   .itemFitesk{
@@ -271,4 +272,141 @@ div {
     padding-top:5px;
   }
 
+
+
+/* -------------------------
+    Typography Declarartions
+   -------------------------*/
+
+body {
+    color:#0f3641;
+    font-size: 1em;
+    font-family:Neuzeit Grotesk
+  }
   
+  .introduction > p, 
+  .location > p,
+  .content-footer > p {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+  
+  .questions > h2 {
+    font-family:Neuzeit Grotesk;
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+
+.content-footer,
+  .introduction, 
+  .location, 
+  .questions {
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
+  
+  .questions {
+    padding-bottom: 2.5em;
+  }
+  
+
+h5{
+    margin: 0;
+    text-align: center;
+    font-size: 2em;
+    overflow: hidden;
+    line-height: 1;
+    color:#0f3641;
+}
+
+h5 span{
+    display: block;
+    animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1);
+}
+  
+  h4 {
+    margin: 0;
+    text-align: center;
+    font-size: 5em;
+    overflow: hidden;
+    line-height: 1;
+    color: #e85324;
+  }
+  h4 span {
+    display: block;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+  
+  @keyframes reveal {
+    0% {
+      transform: translate(0,100%);
+    }
+    100% {
+      transform: translate(100,0%);
+    }
+  }
+  .container2 {
+    padding: 100px 20px 0;
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
+
+
+  *{
+    box-sizing: border-box
+    
+  }
+  .testimonial-card{
+    min-height: 400px;
+    width: 350px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 8px 30px rgba(0,0,0,.5);
+    display: flex;
+    flex-flow: column;
+    justify-content:space-between;
+    padding: auto;
+    margin: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 10px;
+   
+  }
+  .text{
+    padding: 2.2em;
+    line-height: 1.7em;
+    position: relative;
+    font-size: 18px;
+  }
+
+    
+  
+  .footer{
+    background:#e85324;
+    height: 140px;
+    border-radius: 0 0 10px 10px;
+    position:relative;
+    
+  }
+  
+  .quote{
+    font-size: 400%;
+    float: right;
+    opacity: .2;
+    transform: rotate(10deg) translate(-10px, -40px);
+   color:#0f3641;
+  }
+  
+  .person{
+    color:#fff;
+    font-family: Campton;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    font-size:1.5rem;
+    font-weight: 600;
+  }
