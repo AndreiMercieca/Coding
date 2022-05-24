@@ -9,6 +9,7 @@ h1{
     margin-bottom: 0.67em;
     margin-left: 0;
     margin-right: 0;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
  
 }
 h2{
@@ -30,7 +31,7 @@ h3{
     font-weight: bold;
     text-align: center; 
     display: block;
-    font-size: 3em; 
+    font-size: 2em; 
     margin-top: 0.67em;
     margin-bottom: 0.67em;
     margin-left: 0;
@@ -47,14 +48,16 @@ h3{
     text-align: center !important;
     padding: 1%;
     margin-top: auto;
+   
+    
+ 
 
 }
 .navbar .navbar-nav .nav-link:hover{
     color: #0f3641;
-    text-decoration:overline;
-    
-    
-    
+
+    border-width: 0 0 2px;
+    border-style:solid;
 }
 
 
@@ -63,34 +66,47 @@ h3{
     color: #fff;
     margin: 12px;
     margin-left: 12px;
+    
 
 }
 
 .icon:hover {
     color: #0f3641;
+    
 }
 a:hover{
     transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    
 }
 
 ul {
     padding: 0;
     font-size: 1.154em;
 
+    
+
 }
 li {
     display:inline-block;
+    
+    
 }
 
 title {
   display:none;
+  
 }
 
+.col-3{
+  animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175,  1);
+}
     
 body{
     background:#f5f0dc;
+    
   }
   
+ 
 
 p{
     color:#0f3641;
@@ -98,6 +114,7 @@ p{
     font-size: 2em;
     font-weight: bold;
     text-align: center;    
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 p2{
     color:#e85324;
@@ -106,6 +123,7 @@ p2{
     font-weight: bold;
     text-align: center; 
     display: block;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
 p3{
     color:#0f3641;
@@ -120,6 +138,7 @@ p3{
 .form-group {
     position:sticky;
     margin-bottom: 1.25rem;
+    animation: reveal 1s cubic-bezier(0.77, 0, 0.175, 1);
   
 }
 .form-control {
@@ -127,6 +146,7 @@ p3{
     outline: 0;
     border: 0.5px solid;
     color: #e85324;
+    
 }
 .form-control:focus{
 	box-shadow: none;
@@ -147,6 +167,7 @@ p3{
 }
 .form-control-placeholder:hover{
     color: #0f3641;
+    
 }
 
 .form-control:focus+.form-control-placeholder,
@@ -165,6 +186,7 @@ p3{
     font-weight: 600;
     align-items: center;
     display: block;
+    
 
 }
 .btn-primary span{
@@ -177,6 +199,7 @@ p3{
     color: #0f3641;
     font-family:Campton;
     font-weight:900;
+    
 
 }
 .caption {
@@ -188,13 +211,22 @@ p3{
     text-align: right;
     padding: 10px;
     margin: 10px;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
 }
+
+
+.caption:hover{
+  color: #e85324;
+}
+
+
 
 .column {
     display: flex;
     float: left;
     width: 25%;
     padding: auto;
+    
   }
 .form-check{
     color: #e85324;
@@ -202,17 +234,18 @@ p3{
     font-weight: bold;
     padding: auto;
     margin: auto;
+    
 }
 .form-check-input:checked{
     background-color: #e85324;
     border:none !important
+    
 }
 .form-check:hover{
     color: #0f3641;
 }
 div {
     padding-top: 20px;
-  
     padding-bottom: 20px;
 
   }
@@ -222,6 +255,7 @@ div {
     flex-wrap: wrap; -webkit-flex-wrap: wrap;
     justify-content: center; -webkit-justify-content: center;
     width:100%;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
     
   }
   
@@ -233,19 +267,22 @@ div {
     margin: 10px;
     display: block;
     padding:0px !important;
+    
   }
 
   .itemMarea{
     background-image:url('../Images/Marea\ Brand\ Guidelines\ v1-01.jpg');
-    
+    animation: reveal 1.0s cubic-bezier(0.77, 0, 0.175, 1);
   }
   
   .itemFitesk{
     background-image:url('../Images/Fitesk\ Logo-01.jpg');
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
   }
 
   .itemWork{
     background-image:url('../Images/Profile\ Picture-01.jpg');
+    animation: reveal 2.0s cubic-bezier(0.77, 0, 0.175, 1);
   }
 
   .item-info{
@@ -272,6 +309,10 @@ div {
     padding-top:5px;
   }
 
+  a:link {
+    text-decoration: none;
+    
+  }
 
 
 /* -------------------------
@@ -373,6 +414,7 @@ h5 span{
     margin-top: auto;
     margin-bottom: auto;
     margin-right: 10px;
+    animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
    
   }
   .text{
@@ -398,6 +440,7 @@ h5 span{
     opacity: .2;
     transform: rotate(10deg) translate(-10px, -40px);
    color:#0f3641;
+   animation: reveal 1.5s cubic-bezier(0.77, 0, 0.175, 1);
   }
   
   .person{
@@ -409,4 +452,24 @@ h5 span{
     transform: translate(-50%, -100%);
     font-size:1.5rem;
     font-weight: 600;
+    
   }
+
+
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+
+  .img-container{
+    animation: reveal 2.5s cubic-bezier(0.77, 0, 0.175, 1);
+  }
+
+
+
+
+
+  
