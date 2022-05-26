@@ -21,12 +21,12 @@ $(document).ready(function() {
 
   
     $('.item').mouseenter(function() {
-      $(this).find('.item-info').fadeIn(400);
+      $(this).find('.item-info').fadeIn(300);
       $(this).css("cursor", "pointer");
     });
   
     $('.item').mouseleave(function() {
-      $(this).find('.item-info').fadeOut(400)
+      $(this).find('.item-info').fadeOut(500)
     });
   
   });
