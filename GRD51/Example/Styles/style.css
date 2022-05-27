@@ -379,9 +379,6 @@ h5 span{
     0% {
       transform: translate(0,100%);
     }
-    100% {
-      transform: translate(100%);
-    }
   }
   .container2 {
     padding: 100px 20px;
